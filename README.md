@@ -6,7 +6,6 @@
 
 This project presents a **GenAI-powered financial analysis tool** designed to evaluate the **investment viability** of Tata Consultancy Services (TCS) shares by analyzing its official annual report. By leveraging **advanced NLP techniques and LLMs**, the system extracts, interprets, and responds to investment-related queries using contextual information directly sourced from the document.
 
----
 
 ## 🎯 Objective
 
@@ -24,7 +23,6 @@ To develop a smart, AI-driven system capable of parsing TCS's annual report and 
 * **RAG Architecture** – Integrating retrieval and generation for accurate, context-based answers.
 * **Share Market Fundamentals** – Applied domain knowledge to validate insights and enhance financial relevance.
 
----
 
 ## 🧠 How It Works
 
@@ -49,7 +47,6 @@ These retrieved chunks are combined with the user’s query and passed to GPT-4o
 
 The LLM interprets the information and generates human-like responses grounded in the source material, helping users understand financial performance and investment opportunities.
 
----
 
 ## 📈 Use Cases
 
@@ -58,7 +55,6 @@ The LLM interprets the information and generates human-like responses grounded i
 * Automated summarization and insight extraction from financial PDFs
 * Application of GenAI in finance and capital markets
 
----
 
 ## 📌 Key Features
 
@@ -68,15 +64,12 @@ The LLM interprets the information and generates human-like responses grounded i
 * 📊 Financial domain focus with practical market relevance
 * 🚀 Scalable architecture for any corporate financial document
 
----
-
 ## 🧪 Example Queries
 
 * "Is TCS a good company to invest in based on its 2023 report?"
 * "What were TCS’s major revenue drivers last year?"
 * "Summarize TCS’s financial performance in Q4."
 
----
 
 ## ✅ Future Enhancements
 
