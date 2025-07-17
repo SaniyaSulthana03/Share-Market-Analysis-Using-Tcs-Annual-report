@@ -4,25 +4,22 @@
 
 ## 🔍 Project Overview
 
-This project presents a **GenAI-powered financial analysis tool** designed to evaluate the **investment viability** of Tata Consultancy Services (TCS) shares by analyzing its official annual report. By leveraging **advanced NLP techniques and LLMs**, the system extracts, interprets, and responds to investment-related queries using contextual information directly sourced from the document.
+This project presents a *GenAI-powered financial analysis tool* designed to evaluate the *investment viability* of Tata Consultancy Services (TCS) shares by analyzing its official annual report. By leveraging *advanced NLP techniques and LLMs*, the system extracts, interprets, and responds to investment-related queries using contextual information directly sourced from the document.
 
 
 ## 🎯 Objective
 
-To develop a smart, AI-driven system capable of parsing TCS's annual report and answering questions about the company’s financial health, performance indicators, and investment potential using a **Retrieval-Augmented Generation (RAG)** approach.
-
----
+To develop a smart, AI-driven system capable of parsing TCS's annual report and answering questions about the company’s financial health, performance indicators, and investment potential using a *Retrieval-Augmented Generation (RAG)* approach.
 
 ## ⚙ Technologies & Tools Used
 
-* **Python** – Core programming language used for implementation.
-* **LangChain** – For building the RAG pipeline and handling document chunking and retrieval flow.
-* **FAISS (Facebook AI Similarity Search)** – To store and retrieve high-dimensional vector embeddings of document chunks.
-* **GPT-4o-mini (OpenAI)** – A powerful Large Language Model used to provide context-aware responses.
-* **PDF Parsing** – Extracting structured text data from the TCS annual report PDF.
-* **RAG Architecture** – Integrating retrieval and generation for accurate, context-based answers.
-* **Share Market Fundamentals** – Applied domain knowledge to validate insights and enhance financial relevance.
-
+* *Python* – Core programming language used for implementation.
+* *LangChain* – For building the RAG pipeline and handling document chunking and retrieval flow.
+* *FAISS (Facebook AI Similarity Search)* – To store and retrieve high-dimensional vector embeddings of document chunks.
+* *GPT-4o-mini (OpenAI)* – A powerful Large Language Model used to provide context-aware responses.
+* *PDF Parsing* – Extracting structured text data from the TCS annual report PDF.
+* *RAG Architecture* – Integrating retrieval and generation for accurate, context-based answers.
+* *Share Market Fundamentals* – Applied domain knowledge to validate insights and enhance financial relevance.
 
 ## 🧠 How It Works
 
@@ -93,5 +90,3 @@ The LLM interprets the information and generates human-like responses grounded i
 ├── main.py
 ├── requirements.txt
 └── README.md
-
-
